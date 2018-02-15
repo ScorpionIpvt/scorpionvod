@@ -1,34 +1,3 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.scorpionpro" name="Scorpion Pro Iptv" version="1.0.0" provider-name="Scorpion Iptv">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.addon.common" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="init.py">
-        <provides>video executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Scorpion Iptv</summary>
-    <website></website>
-    <description lang="en">Watch premium Live tv. No kicking out. Channels from all over the world. USA, UK,and more.</description>
-    <forum></forum>
-    <email></email>
-    <disclaimer lang="en"> This addon is regulated by General Public License:https://en.wikipedia.org/wiki/GNU_General_Public_License</disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="repository.scorpionvod" name="Scorpion Vod Repository" version="1.0" provider-name="Playonmonkey">
-	<extension point="xbmc.addon.repository" name="scorpionvod">
-		<info compressed="false">https://raw.githubusercontent.com/ScorpionIpvt/scorpionvod/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/ScorpionIpvt/scorpionvod/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/ScorpionIpvt/scorpionvod/master/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Scorpion Vod Repository</summary>
-		<description>Scorpion Vod Add ons</description>
-		<platform>all</platform>
-	</extension>
-</addon>
 </addons>
